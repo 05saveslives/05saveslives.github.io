@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(255, 255, 255) ;
+    font-family: 'Lato';
+}
+.topnav {
+    background-color: rgb(16, 89, 145);
+    overflow: hidden;
+   
+    
+}
+.topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Lato';
+        float: left
+}
+
+.topnav a:hover {
+        background-color:rgb(218, 237, 252);
+        color:rgb(2, 144, 245);
+}
+
+.topnav a.active {
+    background-color: rgb(2, 144, 245);
+    color: white;
+}
+
+img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(0,103,204);
+    font-size: 2em
+}
+
+.button {
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 1em;
+    color: rgb(0,103,204);
+
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.material-icons {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(0,103,204);
+    margin-bottom: 5px;
+   
+}
+
+.facts {
+    text-align: center;
+    color: rgb(0,103,204);	
+    margin-top: 3em;
+}
+
+.space {
+    display: inline-block;
+    
+}
+
+h3 {
+    color: white;
+}
