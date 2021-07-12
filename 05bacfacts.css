@@ -1,0 +1,101 @@
+
+.topnav {
+  background-color: rgb(16, 89, 145);
+  overflow: hidden;
+}
+.topnav a {
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'Lato';
+      float: left;
+}
+
+.topnav a:hover {
+      background-color:rgb(218, 237, 252);
+      color:rgb(2, 144, 245);
+}
+
+.topnav a.active {
+  background-color: rgb(2, 144, 245);
+  color: white;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(77, 160, 255) , rgb(121, 200, 214) );
+}
+
+.column {
+    float: left;
+    width: 27%;
+    text-align: left;
+    background-color: white;
+    margin: 1.6vw;
+    padding: 1.3vw;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    border-radius: .5cm;
+    color:     #1d1d1f
+  }
+  
+  .row:after {
+    display: inline-flex;
+    clear: both;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 90%;
+      margin: 1cm
+    }
+  }
+
+  .title {
+      color: rgb(0	144	245	);
+      font-size: 1.6em;
+      margin-bottom: 1cm;
+      font-weight: 800;
+
+    
+  }
+
+h3 {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: white; 
+    font-size: 2.3em;
+    text-align: left;
+    margin: 2cm;
+
+
+    
+}
+
+@media screen and (max-width: 1300px) {
+    h3 {
+       width: 15cm;
+       font-size: 2em;
+       margin-left: 1cm;
+    }
+ }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(2	82	140	);
+    color: white;
+    border-radius: .4cm;
+    font-family: 'Lato',Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+

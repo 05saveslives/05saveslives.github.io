@@ -1,0 +1,85 @@
+.topnav {
+    background-color: rgb(16, 89, 145);
+    overflow: hidden;
+   
+    
+}
+.topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Lato';
+        float: left
+}
+
+.topnav a:hover {
+        background-color:rgb(218, 237, 252);
+        color:rgb(2, 144, 245);
+}
+
+.topnav a.active {
+    background-color: rgb(2, 144, 245);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(2,82,140);
+    font-size: 2em;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-right: 4em;
+    margin-left: 4em;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    border-radius: 3em;
+}
+
+.material-icons {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(0,103,204);
+    margin-bottom: 2px;
+}
+
+.download {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(2,82,140);
+    font-size: 1.8em;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.download:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px ;
+}
+
+.title {
+    font-size: 1.93em;
+    font-weight: 900;
+    text-align: center;
+    margin-right: 3.5;
+    margin-left: 3.5;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    border-radius: 3em;
+}
+
+.agreement {
+    background-image: linear-gradient(to right, rgb(0, 38, 161) , rgb(23, 108, 114) );
+    margin: 3em;
+    border-radius: 3em;
+    padding: 1cm;
+    color: rgb(255, 255, 255);
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

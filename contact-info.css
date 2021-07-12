@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', Helvetica, sans-serif;
+    margin: 2cm;
+    background-image: linear-gradient(to right, rgb(0, 60, 129) , rgb(0, 95, 112) );
+    color: white;
+    font-size: 150%;
+}
+
+.link {
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.back-button {
+        background-color: #a9e0ff;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        color: #0a243b
+}
+
+.material-icons {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+   
+}

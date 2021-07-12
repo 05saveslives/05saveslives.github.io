@@ -1,0 +1,73 @@
+.topnav {
+    background-color: rgb(16, 89, 145);
+    overflow: hidden;
+   
+    
+}
+.topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Lato';
+        float: left
+}
+
+.topnav a:hover {
+        background-color:rgb(218, 237, 252);
+        color:rgb(2, 144, 245);
+}
+
+.topnav a.active {
+    background-color: rgb(2, 144, 245);
+    color: white;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: rgb(0	144	245	);
+}
+
+.docs a {
+    text-decoration: none;
+    color:rgb(0	144	245	);
+    margin: .3em;
+    margin-left: 5em;
+    display: inline-block;
+}
+
+.docs {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 1.5em;
+
+}
+
+.Join {
+    color:rgb(0	144	245	);
+    margin: .3em;
+    margin-left: 5em;
+    display: inline-block;
+    color: rgb(2, 144, 245);
+    font-family: 'Lato';
+    font-size: 1.5em;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    color:rgb(0	144	245	);
+    margin: .3em;
+    margin-left: 5em;
+    display: inline-block;
+    color: rgb(2, 144, 245);
+    font-family: 'Lato';
+    font-size: 1.5em;
+    
+}

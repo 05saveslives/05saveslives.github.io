@@ -1,0 +1,134 @@
+body {
+    background-image: linear-gradient(to right, rgb(77, 160, 255) , rgb(121, 200, 214) );
+}
+
+.map {
+    width: 70vw;
+    margin-top: 2cm;
+    float: left;
+}
+
+.topnav {
+    background-color: rgb(16, 89, 145);
+    overflow: hidden;
+   
+    
+}
+
+.alert {
+  background-color: rgb(16, 89, 145);
+    overflow: hidden;
+    position: relative;
+    margin-top: -.1cm;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 400;
+    margin-bottom: .2cm;
+    border-top-style: solid;
+    border-width: .07cm;
+
+}
+
+.topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Lato';
+        float: left
+}
+
+.topnav a:hover {
+        background-color:rgb(218, 237, 252);
+        color:rgb(2, 144, 245);
+}
+
+.topnav a.active {
+    background-color: rgb(2, 144, 245);
+    color: white;
+    color: white;
+}
+
+h2 {
+    float: right;
+    text-align: center;
+    position: relative;
+    right: 3.8cm;
+    font-size: 3em;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(0, 78, 134);
+}
+
+.law {
+    background-color: rgb(2, 144, 245);
+    width: 3cm;
+    height: 25px;
+    margin-top: 4cm;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+
+  .bill {
+    background-color: rgb(236	231	36	);
+    width: 3cm;
+    height: 25px;
+    margin-top: 6cm;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-right: -3.3cm;
+  }
+
+  .nolaw {
+    background-color: rgb(218	218	218	);
+    width: 3cm;
+    height: 25px;
+    margin-top: 8cm;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-right: -3.3cm;
+  }
+
+  .contactinfo  {
+    background-image: linear-gradient(to right, rgb(0, 89, 190) , rgb(121, 164, 214) );  
+    margin-top: 11cm;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-right: -7cm;
+    font-size: 1.6em;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid rgb(16, 89, 145);
+  }
+
+  .material-icons {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+.map {
+  outline: 0;
+  }
+  
