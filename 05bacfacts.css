@@ -4,13 +4,18 @@
   overflow: hidden;
 }
 .topnav a {
-      color: #f2f2f2;
+      color: #ffecec;
       text-align: center;
       padding: 14px 20px;
+      margin: 14px 20px;
       text-decoration: none;
       font-size: 18px;
       font-family: 'Lato';
       float: left;
+      border: 5px rgb(121, 200, 214) solid;
+      border-radius: 10px;
+      background-color: rgb(121, 200, 214);
+  
 }
 
 .topnav a:hover {

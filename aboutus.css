@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 255) ;
+    font-family: 'Lato';
 }
 .topnav {
     background-color: rgb(16, 89, 145);
@@ -38,7 +39,6 @@ body {
     
 }
 #title-info {
-    font-family: 'Lato';
     color: rgb(4, 46, 79);
     width: 75%;
     text-align: left;
@@ -56,7 +56,6 @@ body {
 
 .Mineta {
     margin-left: 62%;
-    font-family: 'Lato';
     position: relative;
     width: 150%;
     font-size: 200%;
@@ -65,22 +64,18 @@ body {
     
 }
 
-
 .mineta-text {
     color:rgb(4, 46, 79);
     position: relative;
     padding: 5%;
     margin-left: 55%;
     font-size: 2em;
-    font-family: 'Lato';
     font-weight: 900;
     margin-bottom: 2cm;
 }
 
 .fourth {
-   font-family: 'Lato';
     text-align: center;
-    line-height: 120%;
     border-bottom: 5px solid rgb(4, 46, 79);
     margin-bottom: 5px;
     font-size: 130%;
@@ -89,33 +84,14 @@ body {
 
 }
 
-h3 {
-    font-weight: 900;
-    color: rgb(0	144	245);
-}
-.one {
-    position: absolute;
-    left: 0cm;
-    width: 20%;
-    margin: 1em;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
 }
 
-.two {
-    position: absolute;
-    left: 25%;
-    width: 20%;
-    margin: 1em;
-}
-.three {
-    position:absolute;
-    width: 20%;
-    margin: 1em;
-    left: 50%
-}
-
-.four {
-    position:absolute;
-    width: 20%;
-    margin: 1em;
-    left: 75%
+.item {
+    width: 7cm;
+    margin: .4cm;
 }
