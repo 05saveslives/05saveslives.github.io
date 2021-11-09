@@ -1,21 +1,17 @@
-
 .topnav {
   background-color: rgb(16, 89, 145);
   overflow: hidden;
+ 
+  
 }
 .topnav a {
-      color: #ffecec;
+    color: #f2f2f2;
       text-align: center;
       padding: 14px 20px;
-      margin: 14px 20px;
       text-decoration: none;
       font-size: 18px;
       font-family: 'Lato';
-      float: left;
-      border: 5px rgb(121, 200, 214) solid;
-      border-radius: 10px;
-      background-color: rgb(121, 200, 214);
-  
+      float: left
 }
 
 .topnav a:hover {
@@ -25,6 +21,7 @@
 
 .topnav a.active {
   background-color: rgb(2, 144, 245);
+  color: white;
   color: white;
 }
 
@@ -39,58 +36,49 @@ h1 {
 
 body {
     background-image: linear-gradient(to right, rgb(77, 160, 255) , rgb(121, 200, 214) );
+    font-family: 'Lato';
+    color: white;
+}
+
+.container {
+  display: flex;
 }
 
 .column {
-    float: left;
-    width: 27%;
-    text-align: left;
-    background-color: white;
-    margin: 1.6vw;
-    padding: 1.3vw;
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    font-size: 1.3em;
-    border-radius: .5cm;
-    color:     #1d1d1f
-  }
-  
-  .row:after {
-    display: inline-flex;
-    clear: both;
-  }
-
-  @media screen and (max-width: 800px) {
-    .column {
-      width: 90%;
-      margin: 1cm
-    }
-  }
-
-  .title {
-      color: rgb(0	144	245	);
-      font-size: 1.6em;
-      margin-bottom: 1cm;
-      font-weight: 800;
-
-    
-  }
-
-h3 {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-    color: white; 
-    font-size: 2.3em;
-    text-align: left;
-    margin: 2cm;
-
-
-    
+  margin: 1cm;
+  width: 100%;
 }
 
-@media screen and (max-width: 1300px) {
-    h3 {
-       width: 15cm;
-       font-size: 2em;
-       margin-left: 1cm;
+.title {
+  font-size: 1.6em;
+  margin-bottom: 1cm;
+  font-weight: 800;
+
+    
+  }
+
+.head {
+    display: flex;
+    justify-content: center;
+  }
+
+.head-text {
+    font-family: 'Lato', Arial, Helvetica, sans-serif; 
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(18, 99, 99);
+    width: 60%;
+    border-radius: .5cm;
+    padding: .5cm;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+      display: block;
+    }
+
+    .column {
+      width: 85%;
     }
  }
 
