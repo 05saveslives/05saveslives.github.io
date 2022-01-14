@@ -17,6 +17,8 @@
 
    
     <div class="topnav">
+        <p class="collapse" id="menuBar" style="display: block;">&#9776</p>
+        <div class="menu" id="menuContent" style="display: none;">
         <a class="active" href="#Home">Home</a>
         <a href="/aboutus.html">About Us</a>
         <a href="/05bacfacts.html">.05 BAC Facts</a>
@@ -25,6 +27,7 @@
         <a href="/joinnow.html">Join Now</a>
         <a href="/news.html">News</a>
         <a href="/map.html">Map</a>
+    </div>
     </div>
 
     <div id="logo">
@@ -52,6 +55,13 @@
               
                 </footer>
     </div>
+    <script>
+        menuBar.addEventListener("click",function(){
+    menuBar.style.display = "none";
+    menuContent.style.display = "block";
+
+},false);
+    </script>
 
     
 
