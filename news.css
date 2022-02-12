@@ -33,131 +33,25 @@ body {
     font-family: 'Lato';
     font-weight: 900;
     font-size: 4em;
-    
 }
 
-.logophoto {
-    float: right;
-    padding: .2cm;
-    width: 5cm;
-    border: black;
-    border-style: solid;
-    border-radius: .3cm;
-    border-width: .05cm;
-    margin-top: -2.3cm;
-    margin-right: 6cm;
-}
-
-
-.photo {
-    float: right;
-    width: 5.5cm;
-    border-radius: .3cm;
-    border-width: .05cm;
-    margin-top: -2.3cm;
-    margin-right: 6cm;
-}
-
-.newstitle {
-    float: left;
-
+.capsule {
+    display: grid;
+    grid-template-columns: auto auto auto;  
 }
 
 .text {
-    margin-left: 4cm;
+    padding: 2cm;
+    width: 400px;
+}
+
+img {
+    width: 310px;
+}
+
+.text {
     font-family: 'Lato';
-    color: black;
-    
-}
-
-@media screen and (max-width: 1329px) {
-  
-    .text {
-        width: 10cm;
-        position: relative;
-        margin-top: -2cm;
-        margin-bottom: 4cm;
-        padding-top: .3cm;
-    }
-
-    .photo {
-        position: relative;
-        top: -2cm;
-        width: 4.675cm;
-    }
-
-
-    .logophoto {
-        width: 4.2cm;
-        position: relative;
-        top: -2cm;
-    }
-
-    .bottom {
-        color: #efefef;
-        border: none;
-        background-color: #efefef;
-        height: 5px;
-        margin-top: 3cm;
-        margin-left: 8vw;
-        position: relative;
-        left: 2cm;
-    }
-  }
-
-
-
-@media screen and (max-width: 1200px) {
-    .text {
-      width: 30%;
-      margin: 3cm;
-      margin-top: -2cm;
-      font-size: 1vw;
-    }
-
-    .photo {
-        width: 2.75cm;
-        float: right;
-        position: initial;
-    }
-
-    .logophoto {
-        width: 2.3cm;
-        position: initial;
-    }
-
-  }
-
-
-.bottom {
-    color: #efefef;
-    border: none;
-    background-color: #efefef;
-    height: 5px;
-    margin-top: 3cm;
-    margin-left: 8vw;
-    margin-right: 4cm;
-}
-
-.top {
-    color: white;
-    border: none;
-    background-color: white;
-    height: 5px;
-    margin-bottom: 2cm;
-    margin-right: 4cm;
-
-}
-
-.firsttop {
-    color: #efefef;
-    border: none;
-    background-color: #efefef;
-    height: 5px;
-    margin-bottom: 2cm;
-    margin-right: 4cm;
-    margin-left: 8vw;
-
+    color: black;   
 }
 
 .text a:link{
@@ -175,6 +69,8 @@ body {
     color: rgb(0, 144,245);
 }
 
-.map {
-    outline: 0;
+@media only screen and (max-width: 1000px) {
+    .capsule {
+        grid-template-columns: 100%;
     }
+  }
