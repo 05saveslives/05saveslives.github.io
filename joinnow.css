@@ -83,3 +83,10 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 1200px) {
+    p {
+        margin-right: .1em;
+    margin-left: .1em;
+    }
+ }
