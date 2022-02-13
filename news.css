@@ -49,6 +49,10 @@ img {
     width: 310px;
 }
 
+.logophoto {
+    border: 5px saddlebrown;
+}
+
 .text {
     font-family: 'Lato';
     color: black;   
