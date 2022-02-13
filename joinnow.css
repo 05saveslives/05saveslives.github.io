@@ -89,4 +89,9 @@ iframe {
         margin-right: .1em;
     margin-left: .1em;
     }
+
+    .agreement {
+        margin: .2cm;
+        padding: .5cm;
+    }
  }
