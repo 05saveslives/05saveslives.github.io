@@ -51,21 +51,20 @@ body {
 }
 
 .mineta-flex {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .mineta {
-    width: 7cm;
-    justify-self: center;
+    width: 5cm;
 }
 
 .mineta-text {
     color:rgb(4, 46, 79);
     position: relative;
     font-size: 2em;
-    margin-bottom: 2cm;
 }
 
 .fourth {
@@ -90,15 +89,7 @@ body {
     }
 
     .mineta-flex {
-        display: block;
-    }
-
-    .mineta {
-        margin: auto;
-    }
-
-    .mineta-text {
-        text-align: center;
+        display: flex;
     }
 }
 
@@ -107,6 +98,13 @@ body {
         display: grid;
         grid-template-columns: 100%;
     }
+    .mineta-flex {
+        flex-direction: column;
+    }
+    .mineta-text {
+    text-align: center;
+    font-size: 1.3em;
+}
 }
 
 .item {

@@ -32,8 +32,6 @@ img.header {
     object-fit: none;
     filter: blur(8px);
   -webkit-filter: blur(8px);
-  
-   
 }
 
 img.logo {
@@ -85,11 +83,6 @@ h2 {
     margin-top: 3em;
 }
 
-.space {
-    display: inline-block;
-    
-}
-
 h3 {
     color: white;
 }
@@ -109,6 +102,25 @@ h3 {
 
 h2 {
     text-align: center;
+}
+
+    .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    img.logo {
+        width: 270px;
+    }
+
+h2 {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
 }
 
     .container {
