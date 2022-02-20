@@ -26,19 +26,35 @@ body {
     color: white;
 }
 
-img {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
+img.header {
+    width: 100%;
+    height: 250px;
+    object-fit: none;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+   
+}
+
+img.logo {
+    width: 400px;
+padding: 20px;
     display: block;
     margin-top: 25px;
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-weight: 900;
     color: rgb(0,103,204);
     font-size: 2em
+}
+
+.container {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 50px;
 }
 
 .button {
@@ -86,12 +102,18 @@ h3 {
 }
 
 @media screen and (max-width: 1200px) {
-    h2 {
-        font-size: 1.4em;
-        margin: .4cm;
-    }
+
     img {
-        width: 60%;
+        width: 300px;
+    }
+
+h2 {
+    text-align: center;
+}
+
+    .container {
+        flex-direction: column;
+        gap: 15px;
     }
 
 }
